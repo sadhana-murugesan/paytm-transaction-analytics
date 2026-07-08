@@ -35,7 +35,16 @@ in the repo so the process is fully transparent and reproducible.
 | city                | Transaction origin city                       |
 | device_type         | Android / iOS / Web                           |
 | is_fraud            | 1 if flagged fraudulent, else 0               |
+## Dashboard Screenshots
 
+### Monthly Transaction Value Trend
+![Monthly Transaction Value Trend](images/monthly%20transaction%20value%20trend.png)
+
+### Fraud Analysis
+![Fraud Analysis](images/fraud%20analysis.png)
+
+### Peak Transaction Hour
+![Peak Transaction Hour](images/peak%20transaction%20hour.png)
 ## Tools Used
 
 - **SQL** (SQLite-compatible, portable to PostgreSQL/MySQL) — aggregation, filtering,
